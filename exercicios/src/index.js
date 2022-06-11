@@ -11,7 +11,9 @@ import ReactDOM from 'react-dom'
 porque foi exportado usando Default*/
 
 // import Saudacao from './componentes/Saudacao'
+
 import Pai from './componentes/Pai'
+import Filho from './componentes/Filho'
 
 ReactDOM.render(<div>
     {/* <BomDia nome="Willian" idade={10}/> */}
@@ -24,7 +26,10 @@ ReactDOM.render(<div>
 
     <Pai nome="Paulo" sobrenome="Silva">
         {/* Como passo os componentes Filhos Aqui? */}
-        
+
+        <Filho nome="Pedro"/>
+        <Filho nome="Paulo" sobrenome="Silva"/>
+        <Filho nome="Carla" sobrenome="Silva"/>
     </Pai>
 
 </div>
